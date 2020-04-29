@@ -22,3 +22,6 @@ This repository consists of the following program components:
 
 For detailed specifications please refer to the [specification file](doc/SlitherlinkSpec.pdf), located in the [doc](./doc) directory. 
 
+## License
+
+All programs in this repository are released as free software. They are licensed under the GNU GPL v3.0. A [verbatim copy of the license](./LICENSE) is available in this repository. 
