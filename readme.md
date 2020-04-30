@@ -16,11 +16,11 @@ This repository consists of the following program components:
 
 - A [*displayer*](./displayer) for displaying a puzzle state 
 
-- An interative *[game](./game) interface* for playing the puzzle 
+- An interative *[gameing](./gameing) interface* for playing the puzzle 
 
 ## Detailed Specifications
 
-For detailed specifications please refer to the [specification file](doc/SlitherlinkSpec.pdf), located in the [doc](./doc) directory. 
+For detailed specifications please refer to the [specification files](doc/SlitherlinkSpec.pdf), located in the [doc](./doc) directory. 
 
 ## License
 
