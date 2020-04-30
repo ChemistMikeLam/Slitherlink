@@ -1,0 +1,91 @@
+% !TeX program = xelatex
+\documentclass[% 
+	a4paper% 
+	,10pt% 
+	,twoside% 
+	,titlepage% 
+]{article}% 
+% 
+%Fonts and language 
+\usepackage{fontspec}% 
+\setromanfont{Source Serif Pro}% 
+\setsansfont{Source Sans Pro}% 
+\setmonofont{Source Code Pro}% 
+% 
+\usepackage[english]{babel}% 
+\usepackage{polyglossia}% 
+\setmainlanguage[variant=usmax]{english}% 
+\enablehyphenation{}% 
+% 
+%Document metadata
+\newcommand{\titlename}{% 
+	Index of Specifications for programs in repository \github{ChemistMikeLam/Slitherlink}% 
+}% 
+\title{\titlename{}}% 
+\author{% 
+	\github{ChemistMikeLam}\\% 
+	\email{43129403+ChemistMikeLam@users.noreply.github.com}% 
+}% 
+\date{}% 
+% 
+%Math and units
+\usepackage{amsmath}% 
+\usepackage{amssymb}% 
+\usepackage{siunitx}% 
+% 
+%Layout
+\usepackage[% 
+	a4paper% 
+	,top=0.75in% 
+	,bottom=0.75in% 
+	,left=0.5in% 
+	,right=0.5in% 
+]{geometry}% 
+% 
+\usepackage{fancyhdr}% 
+\pagestyle{fancy}% 
+\fancyhf{}% 
+\fancyhf[HRO,HLE]{\thepage{}}% 
+\fancyhf[HRE]{\rightmark{}}% 
+\fancyhf[HLO]{\titlename{}}% 
+% 
+%Hyperref and bookmarks
+\usepackage[% 
+	other% 
+	,numbib% 
+]{tocbibind}% 
+\renewcommand{\tocbibname}{References}% 
+\tocotherhead{section}% 
+% 
+\usepackage{hyperref}% 
+% 
+\newcommand{\doi}[1]{\texorpdfstring{\href{https://dx.doi.org/#1}{#1}}{#1}}% 
+\newcommand{\github}[1]{\texorpdfstring{\href{https://github.com/#1}{\texttt{#1}}}{#1}}% 
+\newcommand{\email}[1]{\texorpdfstring{\href{mailto:#1}{\texttt{#1}}}{#1}}% 
+%
+\hypersetup{% 
+	%Bookmarks 
+	bookmarksnumbered=true% 
+	,bookmarksopen=true% 
+	,bookmarksopenlevel=\maxdimen% 
+	,bookmarkstype=toc% 
+	%Links format 
+	,colorlinks=true% 
+	,breaklinks=true% 
+	%PDF display control 
+	,pdfstartview=FitH top% 
+	,pdfnewwindow=true% 
+	%PDF metadata attributes 
+	,pdftitle=\titlename{}% 
+	,pdfauthor=ChemistMikeLam% 
+	%Miscellaneous 
+	,unicode=true% 
+}% 
+\Urlmuskip=0mu plus 3mu% 
+\usepackage{bookmark}% 
+% 
+\begin{document}% 
+% 
+\maketitle{}% 
+% 
+\end{document}% 
