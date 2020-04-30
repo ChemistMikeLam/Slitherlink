@@ -16,7 +16,7 @@ This repository consists of the following program components:
 
 - A [*displayer*](./displayer) for displaying a puzzle state 
 
-- An interative *[gameing](./gameing) interface* for playing the puzzle 
+- An interative *[gaming](./gaming) interface* for playing the puzzle 
 
 ## Detailed Specifications
 
